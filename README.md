@@ -79,8 +79,9 @@ DECLARAÇÃO DO ESCOPO DO PROJETO
 
 
 6 - Informações do projeto
-	javac 1.8.0_77
-	apache-tomcat 8.0.33
-	mysql-server 5.5.47
-	mysql-connector 5.1.38
-	jstl 1.2
+
+	- javac 1.8.0_77
+	- apache-tomcat 8.0.33
+	- mysql-server 5.5.47
+	- mysql-connector 5.1.38
+	- jstl 1.2
