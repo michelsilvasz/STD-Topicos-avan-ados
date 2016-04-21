@@ -10,22 +10,22 @@ DECLARAÇÃO DO ESCOPO DO PROJETO
 
 1 Projeto / Descrição do Serviço
 
-1.1 - Propósito do Projeto / Justificativa do Negócio
-	Esse projeto produzirá um software que servira para controle de documentos em gerais para a empresa.
+	1.1 - Propósito do Projeto / Justificativa do Negócio
+		Esse projeto produzirá um software que servira para controle de documentos em gerais para a empresa.
 
-1.2 - Objetivos (em termos de negócio) 
-	Sistema permitira localizar documentos que o usuário necessite e no momento e não sabe aonde está.
+	1.2 - Objetivos (em termos de negócio) 
+		Sistema permitira localizar documentos que o usuário necessite e no momento e não sabe aonde está.
 
-1.3 - Produtos entregues (Deliverables)  
-	Código fonte do sistema
-	Executável do sistema
-	Artefatos da Gerência de Projetos: Termo de Abertura, Template declaração do escopo..
+	1.3 - Produtos entregues (Deliverables)  
+		Código fonte do sistema
+		Executável do sistema
+		Artefatos da Gerência de Projetos: Termo de Abertura, Template declaração do escopo..
 
-1.4 - Declaração Clara de o quê esse projeto não irá contemplar
-	O sistema não localiza documentos sem os comandos do usúario.
+	1.4 - Declaração Clara de o quê esse projeto não irá contemplar
+		O sistema não localiza documentos sem os comandos do usúario.
 
-1.5 - Risco Principal Conhecido (incluindo premissas significativas)
-	Usuarios mal intencionados. 
+	1.5 - Risco Principal Conhecido (incluindo premissas significativas)
+		Usuarios mal intencionados. 
 
 
 2 – Detalhamento do Produto - Visão Técnica
