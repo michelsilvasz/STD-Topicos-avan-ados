@@ -22,6 +22,7 @@
 				<input type="password" name="senha" size="30" maxlength="20" placeholder="Senha"/><br />
 			</p>
 			<p><input type="submit" value="Enviar" /></p>
+			<a href="control">Esqueceu a senha</a>
 		
 		</form>
 	
