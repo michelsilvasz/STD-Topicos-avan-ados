@@ -10,9 +10,13 @@ public class ConnectionFactory {
 	public static Connection getConnection() throws SQLException{
 		if (connection == null){
 			try {
-				return DriverManager.getConnection("jdbc:mysql://127.0.0.1/std", "java", "java");
+				/* Configure o usuario e senha do banco de acordo suas configuracoes */
+				String usuario = "java"; // Usuario root ou outro com permissao no banco mydb
+				String senha = "java"; // Senha do usuario
+				
+				return DriverManager.getConnection("jdbc:mysql://127.0.0.1/mydb", usuario, senha);
 			} catch (SQLException e) {
-				throw new RuntimeException(e + "Driver não localizado!");
+				throw new RuntimeException(e + "Driver nao localizado!");
 			}
 		}
 		return connection;

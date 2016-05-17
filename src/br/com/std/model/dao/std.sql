@@ -2,7 +2,7 @@
 -- Generated: 2016-05-16 16:07
 -- Model: New Model
 -- Version: 1.0
--- Project: Name of the project
+-- Project: STD - Sistema Tramitação de Documentos
 -- Author: arsilvag
 
 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;

@@ -31,7 +31,7 @@
 	
 	<!-- inicio rodape -->
 	<footer>
-		
+		<jsp:include page="templates/footer.html"></jsp:include>
 	</footer>
 </body>
 </html>
