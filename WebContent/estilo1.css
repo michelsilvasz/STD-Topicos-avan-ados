@@ -1,7 +1,7 @@
 @CHARSET "UTF-8";
 
 titulo {
-	color: red;
+	color: #ffffff;
 	text-align: center;
 	font-family: verdana;
 	font-weight: bold;
@@ -30,18 +30,18 @@ fundo_menu_escolha {
 	background: rgba(1, 1, 0, 0.9);
 	padding: 5px;
 	position: absolute;
-	left: 1065px;
+	left: 900px;
 	top: 170px;
 }
 
 fundo_menu_escolha1 {
 	height: 400px;
 	width: 340px;
-	background: rgba(255, 255, 255, 1);
+	background: rgba(0, 0, 0, 0);
 	padding: 5px;
 	position: absolute;
-	left: 1065px;
-	top: 170px;
+	left: 1120px;
+	top: 190px;
 }
 
 select.basic {
