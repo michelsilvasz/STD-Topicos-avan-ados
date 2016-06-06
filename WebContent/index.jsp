@@ -62,7 +62,7 @@
 		<jsp:include page="templates/footer.html"></jsp:include>
 	</footer>
 	<br>
-<span id="timer">Relógio</span>
+<b><span id="timer">Relógio</span></b>
 	</fundo_menu_escolha1>
 </body>
 </html>

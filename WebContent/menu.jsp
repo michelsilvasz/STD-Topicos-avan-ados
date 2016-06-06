@@ -52,7 +52,7 @@
 	
 	<!-- inicio rodape -->
 	
-	<span id="timer"><b>Relógio</b></span> <br>
+	<b><span id="timer">Relógio</span></b> <br>
 	<footer>
 		<jsp:include page="templates/footer.html"></jsp:include>
 	</footer>
