@@ -36,27 +36,32 @@
 	<aside> <titulo>
 		<h1>
 			<marquee>
-			<img src="resources/img/biblioteca.png"></img> Menu <img
+			<img src="resources/img/biblioteca.png"></img> Localizar Documento <img
 				src="resources/img/biblioteca.png"></img></marquee>
 		</h1>
 		</titulo> </aside>
 	<fundo_menu_escolha1>
 			<section>
-			<Label1 ><b><h2>Selecione sua requisição</b></h2><br></Label1 >
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<a href="inserirDocumento.jsp">Inserir Documento</a><br/><br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<a href="localizarDocumento.jsp">Localizar Documento</a><br/>
-					<br></br><br></br><br></br><br></br><br></br><br></br><br></br><br>
+			<form>
+				<label1><b>ID documento:</b></label1>
+				
+				<input type="text" name="nomeDoc" id="nomeDoc"/> <br><br>
+				
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="submit" value="Buscar" />
+			</form>
+				
+				
+					<br></br><br></br><br></br><br>
 			</section>
 	
 	<!-- Fim section -->	
-	
-	<!-- inicio rodape -->
-	
 	<span id="timer"><b>Relógio</b></span> <br>
+	<!-- inicio rodape -->
 	<footer>
 		<jsp:include page="templates/footer.html"></jsp:include>
 	</footer>
-	
 	</fundo_menu_escolha1>
+	
 </body>
 </html>
