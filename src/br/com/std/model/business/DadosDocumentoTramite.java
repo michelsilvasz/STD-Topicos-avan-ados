@@ -10,9 +10,19 @@ public class DadosDocumentoTramite  implements Serializable{
    private String centroCusto;
    private String destinatario;
    private String dataTramite;
-    private int idTramite;
-
-   public Integer getIdTramite() {
+   private int idTramite;
+   private int idBusca;
+   
+   public int getIdBusca() {
+	return idBusca;
+}
+public void setIdBusca(int idBusca) {
+	this.idBusca = idBusca;
+}
+public void setIdTramite(int idTramite) {
+	this.idTramite = idTramite;
+}
+public Integer getIdTramite() {
 		return idTramite;
 	}
 	public void setIdTramite(Integer idTramite) {

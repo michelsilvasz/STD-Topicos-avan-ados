@@ -42,10 +42,10 @@
 		</titulo> </aside>
 	<fundo_menu_escolha1>
 			<section>
-			<form>
+			<form method="post" action="ListarDoc">
 				<label1><b>ID documento:</b></label1>
 				
-				<input type="text" name="nomeDoc" id="nomeDoc"/> <br><br>
+				<input type="text" name="idDoc" id="idDoc"/> <br><br>
 				
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 				<input type="submit" value="Buscar" />

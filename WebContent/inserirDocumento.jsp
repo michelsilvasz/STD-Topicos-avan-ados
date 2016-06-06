@@ -170,7 +170,7 @@ function block(data, obj, div)
 		</titulo> </aside>
 	<fundo_menu_escolha1>
 			<section>
-			<form  name='form1'>
+			<form  name='form1' method="post" action="CadastroDocEnvia">
 				<label1><b>Tipo documento:</b></label1>
 				<select name="tipoDoc" id="tipoDoc" >
 					<option value="txt " selected="selected">Tipo</option>

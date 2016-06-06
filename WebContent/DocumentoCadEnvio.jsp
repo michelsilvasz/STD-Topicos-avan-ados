@@ -46,13 +46,13 @@
         <%
         	try {
         		StdDAO cd = new StdDAO();
-                 List<DadosDocumentoTramite> l = cd.lista();
+                 List<DadosDocumentoTramite> l = cd.lista1();
 				for (DadosDocumentoTramite v1 : l ) {
 				
 		%>
 		
 		
-		
+				 <b><label>Numero id:</label></b> <%= v1.getIdTramite() %> <br></br>
                  <b><label>Nome Documento:</label></b> <%= v1.getNomeDocumento() %> <br></br>
                  <b><label>Descrição:</label></b> <%= v1.getDescricao() %> <br></br>
                  <b><label>Data:</label></b> <%= v1.getDataTramite() %> <br></br>
