@@ -134,16 +134,7 @@ function block(data, obj, div)
  
 </script>
  
-<!-- 
-o css abaixo é apenas para dar uma aparência melhor para o calendário. vc pode mudá-lo a sua maneira 
-insira o código abaixo entre as tags <HEAD> </HEAD> de sua página
--->
-<style>
-    .dia {font-family: helvetica, arial; font-size: 8pt; color: #FFFFFF}
-    .data {font-family: helvetica, arial; font-size: 8pt; text-decoration:none; color:#191970}
-    .mes {font-family: helvetica, arial; font-size: 8pt}
-    .Cabecalho_Calendario {font-family: helvetica, arial; font-size: 10pt; color: #000000; text-decoration:none; font-weight:bold}
-</style>
+
 <script>
  function showTimer() {
   var time=new Date();
